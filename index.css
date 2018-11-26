@@ -4,8 +4,12 @@ body {
 
 video {
 	height: 100vh;
+	width: 100%;
 	opacity: 0.4;
 	position: fixed;
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
 	right: 0;
 	bottom: 0;
 }
@@ -14,19 +18,87 @@ p {
 	color: white;
 }
 
-#git {
-	background-image: url("github.jpg");
-	width: 10%;
-	height: auto;
+.icon {
+	margin-top: 20vh;
 }
+
+#git {
+    /*background stuff*/
+	background-image: url('github.jpg');
+	background-position: center;
+	background-size: cover;
+	background-color: #ffffff;
+	
+	
+	/*div modification*/
+	height: 10vh;
+	width: 10vh;
+	border-radius: 100px / 100px;
+	opacity: 1.0;
+	display: inline-block;
+	
+	/*position*/
+
+	margin-left: 35%;
+	
+	transition: opacity, 0.3s;
+	z-index: 5;
+	
+	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2.5s; /* Firefox < 16 */
+        -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+            animation: fadein 2.5s;
+}
+
+#linkedin {
+    /*background stuff*/
+	background-image: url('linkedin.jpg');
+/* 	background-position: center; */
+	background-size: cover;
+	background-color: #ffffff;
+	
+	/*div modification*/
+	height: 10vh;
+	width: 10vh;
+	border-radius: 10px / 10px;
+	opacity: 1.0;
+	display: inline-block;
+	
+	/*position*/
+	margin-top: 20vh;
+	margin-left: 18%;
+	
+	
+	transition: opacity, 0.3s;
+	z-index: 5;
+	
+	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2.5s; /* Firefox < 16 */
+        -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+            animation: fadein 2.5s;
+}
+
+#git:hover{
+	opacity: 0.5;
+	z-index: 5;
+}
+
+#linkedin:hover{
+	opacity: 0.5;
+	z-index: 5;
+}
+
 
 #text {
 	color: white;
 	font-size: large;
 	text-align: center;
-	padding-top: 20vh;
-	font-size: 60px;
+	padding-top: 18vh;
+	font-size: 5vw;
 	font-family: fantasy;
+	z-index: 5;
 	
 	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 4s; /* Firefox < 16 */
