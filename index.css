@@ -38,9 +38,9 @@ p {
 	display: inline-block;
 	
 	/*position*/
-
 	margin-left: 35%;
 	
+	/*transitions for fade*/
 	transition: opacity, 0.3s;
 	z-index: 5;
 	
@@ -70,6 +70,7 @@ p {
 	margin-left: 18%;
 	
 	
+	/*transition for fading*/
 	transition: opacity, 0.3s;
 	z-index: 5;
 	
