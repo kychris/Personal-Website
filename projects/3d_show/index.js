@@ -29,7 +29,7 @@ function setup() {
 
 function draw() {
     background(200);
-    // background(0);
+//     background(0);
     rotateX(-x_rot*0.005);
     rotateY(-y_rot*0.005);
 
@@ -47,7 +47,7 @@ function draw() {
     ambientLight(125, 250, 250);
     directionalLight(0, 0, 0, 0, 0, 1);
     
-    // normalMaterial();
+    normalMaterial();
     // ambientMaterial(10);
     model(teapot);
 }
